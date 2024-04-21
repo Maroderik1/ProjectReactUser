@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(75, 75, 75);
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+header {
+  background-color: #0a0101;
+  color: #fff;
+  height: 60px;
+  padding: 40px 0 0 20px;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+main {
+  margin: 50px 100px;
+  width: 50%;
+  float: left;
+}
+
+aside {
+  width: 20%;
+  margin-top: 50px;
+  margin-left: 5%;
+  float: left;
+}
+
+main .user {
+  margin-bottom: 50px;
+  background-color: #3cb1b1;
+  padding: 20px;
+}
+
+main .delete-icon {
+  float: right;
+  color: #000000;
+  cursor: pointer;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+main .edit-icon {
+  float: right;
+  color: #000000;
+  margin-right: 25px;
+  cursor: pointer;
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+main .delete-icon:hover,
+main .edit-icon:hover {
+  opacity: 0.5;
+}
+
+form input:not([type=checkbox]),
+form textarea,
+form button {
+  width: 90%;
+  padding: 15px 5%;
+  font-family: "Montserrat";
+  font-weight: 600;
+  margin-bottom: 10px;
+  border: 0;
+  background: rgba(13, 29, 33, 0.84);
+  color: #f7f7f7;
+  outline: none;
+  font-size: 15px;
+}
+
+form input[type=checkbox] {
+  margin: 10px;
+}
+
+form button {
+  width: 100%;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+}
+
+form button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.user form {
+  margim-top: 20px;
+}
+
+.user form input,
+.user form button,
+.user form textarea {
+  background: #195757;
+}
+
+.user form button:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+}
